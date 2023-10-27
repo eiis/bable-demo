@@ -1,0 +1,15 @@
+{
+  "name": "babel_03",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build":"babel index.js --out-file compiled.js"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.23.2",
+    "@babel/preset-env": "^7.23.2"
+  },
+  "dependencies": {
+    "@babel/cli": "^7.23.0"
+  }
+}
